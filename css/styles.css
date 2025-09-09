@@ -1,0 +1,97 @@
+/* General Page Styling */
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 40px;
+    line-height: 1.6;
+    color: #000;
+/*backgrund*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: no-repeat center/ 75% url(../images/logo.gif);
+  }
+  /* Header (release date) */
+  header {
+    text-align: center;
+    font-size: 0.9em;
+    font-variant: small-caps;
+    border-bottom: 3px solid black;
+    padding-bottom: 15px;
+    border-top: 3px solid black;
+    padding-top: 15px;
+    border-right: thick;
+  }
+  
+  /* Aside (Press Contact) */
+  aside {
+    float: right;
+    width: 180px;
+    font-size: 0.8em;
+    text-align: right;
+    padding: 8px;
+    border-right: 17px solid #0014c4;
+    margin-right: 20px;
+    line-height: 1.4;
+  }
+  
+  /* Main Heading */
+  h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 15px;
+  }
+  
+  /* Subheading */
+  h2 {
+    font-style: italic;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 20px 0;
+  }
+  
+  /* Article paragraphs */
+  article p {
+    text-align: justify;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right:20px;
+  }
+  
+  /* Highlight Box (section at bottom of article) */
+  section {
+    border: 2px solid green;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-right-width: 2px ;
+    border-left-width: 27px;
+    background-color: #f8fff8;
+    padding: 10px;
+    font-size: 0.95em;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: right;
+    font-size: 0.8em;
+    font-style: italic;
+    margin-top: 30px;
+    border-top: 1px solid #999;
+    padding-top: 5px;
+    opacity: 0.33;
+  }
+  
+  /* Hyperlinks inside section */
+  section a {
+    font-weight: bold;
+    color: blue;
+    text-decoration: none;
+  }
+  
+  section a:hover {
+    text-decoration: underline;
+  }
